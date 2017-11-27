@@ -1,0 +1,30 @@
+{
+  "name": "elasticsearch-synonyms",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "roppa_uk",
+      "email": "mark.o.robson@gmail.com"
+    },
+    {
+      "name": "Hai Liang Wang",
+      "email": "hailiang.hl.wang@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "A library for parsing synonyms",
+  "devDependencies": {
+    "tape": "^4.6.2",
+    "watch": "^1.0.1"
+  },
+  "keywords": [
+    "elasticsearch",
+    "synonyms"
+  ],
+  "main": "./lib",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape test/**/*.js",
+    "watch": "watch 'npm run test' test lib"
+  }
+}
